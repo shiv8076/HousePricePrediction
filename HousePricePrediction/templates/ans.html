@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Prediction</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+        body {
+            margin: 0px;
+            font-family: 'Work Sans', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            background-color: black;
+            color: white;
+            width: 100%;
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+            justify-content: center;
+            align-items: center;
+            opacity: 0.5;
+        }
+
+        #itemlist {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+            margin: 10px;
+            font-weight: 800;
+        }
+
+        .item:hover {
+            color: #4b95f1;
+        }
+
+        .item img {
+            height: 40px;
+            margin: 5px 10px;
+        }
+
+        header div {
+            margin: 150px;
+            margin-right: 50px;
+            margin-bottom: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: right;
+            justify-content: right;
+            text-align: right;
+        }
+
+        header h1 {
+            font-size: 60px;
+        }
+
+        header h1 span {
+            /* font-size: 30px; */
+            border: 4px solid black;
+            border-radius: 15px;
+            color: black;
+            font-size: 25px;
+            padding: 0px 5px;
+            margin: 0px 10px;
+            width: fit-content;
+        }
+
+        body::before {
+            content: "";
+            background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/10/Beach-House-Background-HD.jpg');
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100%;
+            opacity: 0.9;
+            position: fixed;
+            z-index: -2;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul id="itemlist">
+            <li class="item">LOGO</li>
+            <li class="item">Home</li>
+            <li class="item">About Us</li>
+            <li class="item">Contact Us</li>
+        </ul>
+    </nav>
+    <header>
+        <div>
+            <h1>Predicted Value for <br>Your House is <br><span>{{result}}</span></h1>
+        </div>
+    </header>
+</body>
+
+</html>
