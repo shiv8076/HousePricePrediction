@@ -11,13 +11,15 @@ Group Number: 4
 
 # About
 
-Image classification is the task of identifying images and categorizing them in one of several predefined distinct classes.
+Class of machine learning algorithms that work on externally supplied instances(data)
+in form of predictor and associated target values.
+They produce a model representing alternate hypothesis 
+i.e. distribution of class labels in terms of predictor variables in feature space.
+The model thus generated is used to make predictions
+about future instances where the predictor feature values are known but the target value is unknown.
 
-Being one of the computer vision (CV) tasks, Image classification serves as the foundation for solving different CV problems such as object detection which further gets divided into semantic and instance segmentation.
-
-The leading architecture used for image recognition and detection tasks is Convolutional Neural Networks (CNNs). Convolutional neural networks consist of several layers with small neuron collections, each of them perceiving small parts of an image.
-
-An instant impression is made with the first bite of a new food or taste of drink. Sensory analysis takes us past this first response, examining how the food's properties stimulate each of our senses through: the appearance of food – using sight, hearing and touch. the flavour of food – using smell and taste.
+Linear regression model is most basic form fits a straight line to the response variable. 
+The model is designed to fit a line that minimizes the squared differences.
 
 
 # How to run this Project:
@@ -27,4 +29,4 @@ An instant impression is made with the first bite of a new food or taste of drin
 4. open the url given in the output or go to the url "http://127.0.0.1:8000/"
 
 # Refrence Data
-https://www.kaggle.com/code/theeyeschico/food-classification-using-tensorflow/notebook
+http://lib.stat.cmu.edu/datasets/boston
